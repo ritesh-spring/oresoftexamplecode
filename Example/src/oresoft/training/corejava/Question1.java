@@ -16,7 +16,7 @@ public class Question1 {
      public static void main(String[] args)
     {
         if ( args.length < 1 ) {
-            System.out.println("Please give one string to reverse");
+            System.out.println("Please give one to reverse");
             System.exit(1);
         }
         String reverse = new StringBuffer(args[0]).reverse().toString();
